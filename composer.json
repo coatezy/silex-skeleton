@@ -1,0 +1,21 @@
+{
+    "name": "coatezy/silex-skeleton",
+    "description": "Silex micro-framework skeleton",
+    "type": "project",
+    "keywords": ["silex", "micro-framework", "skeleton"],
+    "authors": [
+        {
+            "name": "Tom Coates",
+            "email": "tom@coatezy.com",
+            "homepage": "http://coatezy.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "App\\": "app/src" }
+    },
+    "require": {
+        "silex/silex": "~1.2",
+        "symfony/twig-bridge": "~2.6",
+        "monolog/monolog": "~1.13"
+    }
+}
