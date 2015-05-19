@@ -3,6 +3,7 @@
     "description": "Silex micro-framework skeleton",
     "type": "project",
     "keywords": ["silex", "micro-framework", "skeleton"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Tom Coates",
