@@ -9,7 +9,7 @@ return array(
     'twig' => array(
         'twig.path' => __DIR__ . '/templates',
         'twig.options' => array(
-            'cache' => __DIR__ . '/../cache/twig',
+            'cache' => __DIR__ . '/../var/cache/twig',
             'debug' => true,
             'auto_reload' => true,
         ),
@@ -18,7 +18,7 @@ return array(
     // Monolog settings
     'monolog' => array(
         'monolog.name'    => 'app',
-        'monolog.logfile' => __DIR__ . '/../logs/app.log',
+        'monolog.logfile' => __DIR__ . '/../var/logs/app.log',
     ),
 
 );
